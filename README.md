@@ -1,2 +1,2 @@
-# banana
-#this is a website about bannanas
+#This is a website about fruits
+
