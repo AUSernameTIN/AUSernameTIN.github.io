@@ -5,6 +5,27 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Thank you</title>
     <link rel="stylesheet" href="style.css">
+    <script>
+        function getFact(){
+            const urlParams = new URLSearchParams(window.location.search);
+            let fruit = urlParams.get('type_of_fruit');
+            let fact = urlParams.get('the_fact')
+            let source = urlParams.get('the_source')
+            let name = urlParams.get('name')
+            if (name == null || name == ""){
+                name = "Anonymous"
+            }    
+            if (source == null || source == ""){
+                source = "Unknown"
+            }
+            var heading = document.getElementById("fruit");
+            var paragraph = document.getElementById("paragraph");
+            heading.innerHTML = fruit
+            paragraph.innerHTML = fact + "\n" + name + "\n" + source
+
+        }
+
+    </script>
 </head>
 <body>
     <header>
@@ -17,6 +38,10 @@
             <li><a href="team.html">Our Team</a></li>
         </nav>
     </header>
+    <section>
+        <h2 id="fruit"></h2>
+        <p id="paragraph"></p>
+    </section>
     <footer>
         <p class="green">No Copyright - <a href="team.html">Owen and Austin</a></p>
         <br>
