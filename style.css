@@ -39,7 +39,7 @@ header .item{
 h1{
     font-family: sans-serif;
     text-align: left;
-    width: 40%;
+    width: 30%;
     margin-right: auto;
 }
 nav{
@@ -48,4 +48,9 @@ nav{
     width: 60%;
     text-align: right;
     
+}
+footer p{
+    margin:0 auto;
+    align-items: center;
+    text-align: center;
 }
