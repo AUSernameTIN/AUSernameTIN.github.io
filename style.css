@@ -1,11 +1,11 @@
 html{
-    background-color: black;
+    background-color: rgb(26, 26, 26);
     background-image: "https://hips.hearstapps.com/hmg-prod/images/assortment-of-colorful-ripe-tropical-fruits-top-royalty-free-image-995518546-1564092355.jpg";
     
 }
 body{
     align-items: center;
-    background-color: rgb(26, 26, 26);
+    background-color: rgb(56, 56, 56);
     width: 90%;
     max-width: 1000px;
     margin-left: auto;
