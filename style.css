@@ -11,9 +11,12 @@ body{
     margin-left: auto;
     margin-right: auto;
 }
-.bananaTree{
+.bananaTree,.image_90, .bannana_bread{
     object-fit: cover;
     width: 90%;
+}
+.bannana_bread{
+    height: 50%;
 }
 h1,h2,h3,h4,h5,h6,p,nav,li,figcaption,figure,a,a:visited{
     color: white;
