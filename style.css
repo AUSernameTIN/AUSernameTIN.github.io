@@ -55,3 +55,12 @@ footer p{
     align-items: center;
     text-align: center;
 }
+.red{
+    background-color: rgb(175, 42, 42);
+}
+.yellow{
+    background-color: rgb(141, 141, 33);
+}
+.blue{
+    background-color: rgb(39, 96, 170);
+}
