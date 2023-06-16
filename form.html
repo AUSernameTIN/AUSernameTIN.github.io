@@ -21,7 +21,7 @@
             var heading = document.getElementById("fruit");
             var paragraph = document.getElementById("paragraph");
             heading.innerHTML = fruit
-            paragraph.innerHTML = fact + "\n" + name + "\n" + source
+            paragraph.innerHTML = fact + "<br><br>" +"This fact was submited by:" + name + "<br>" + "This fact is from:" + source
 
         }
 
@@ -39,6 +39,8 @@
         </nav>
     </header>
     <section>
+        <p>Here is an example of your fact</p>
+        <br>
         <h2 id="fruit"> error</h2>
         <p id="paragraph"> error</p>
         <script>getFact()</script>
