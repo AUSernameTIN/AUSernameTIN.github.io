@@ -11,6 +11,7 @@ body{
     margin-left: auto;
     margin-right: auto;
     padding: 10px,20px;
+    border-radius:1%;
 }
 .bananaTree,.image_90, .bannana_bread{
     object-fit: cover;
@@ -66,4 +67,7 @@ footer p{
 }
 .green{
     background-color: rgb(64, 131, 64);
+}
+.orange{
+    background-color: rgb(163, 95, 32);
 }
